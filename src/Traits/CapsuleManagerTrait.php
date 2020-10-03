@@ -1,9 +1,9 @@
 <?php
 
-namespace Lumen\Support\Traits;
+namespace Illuminate\Support\Traits;
 
-use Lumen\Contracts\Container\Container;
-use Lumen\Support\Fluent;
+use Illuminate\Contracts\Container\Container;
+use Illuminate\Support\Fluent;
 
 trait CapsuleManagerTrait
 {

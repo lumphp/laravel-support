@@ -1,5 +1,5 @@
 {
-    "name": "lumphp/support",
+    "name": "illuminate/support",
     "description": "The Illuminate Support package.",
     "license": "MIT",
     "homepage": "https://laravel.com",
@@ -18,9 +18,9 @@
         "ext-json": "*",
         "ext-mbstring": "*",
         "doctrine/inflector": "^1.4|^2.0",
-        "lumphp/collections": "^8.0",
-        "lumphp/contracts": "^8.0",
-        "lumphp/macroable": "^8.0",
+        "illuminate/collections": "^8.0",
+        "illuminate/contracts": "^8.0",
+        "illuminate/macroable": "^8.0",
         "nesbot/carbon": "^2.17",
         "voku/portable-ascii": "^1.4.8"
     },
@@ -29,10 +29,10 @@
     },
     "autoload": {
         "psr-4": {
-            "Illuminate\\Support\\": "src/"
+            "Illuminate\\Support\\": ""
         },
         "files": [
-            "src/helpers.php"
+            "helpers.php"
         ]
     },
     "extra": {
